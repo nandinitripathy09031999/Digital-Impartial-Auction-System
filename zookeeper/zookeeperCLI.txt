@@ -1,0 +1,12 @@
+After Configuration of zookeeper apache config file and installation here we go to step 2:
+
+1.Open The terminal in ur ubuntu and cd your location to the bin directory in the zookeeper folder(where you saved zookeeper file fter downloading)
+ie cd /zookeeper-3.4.12/bin (whatever location is saved in ur system)
+
+2.AFTER that we have to start the Zookeeper server for which write ./zkServer.sh start and press enter
+
+3.In that same location bin run another command ./zkCli.sh and press enter
+after connecting to client CONNECTED(0) msg will be the output
+
+4.this means now the client is connected and to get the list of all the operation the client can do write help and you will get the list
+ 
